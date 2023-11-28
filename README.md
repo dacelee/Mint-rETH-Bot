@@ -11,6 +11,7 @@ const provider = new ethers.providers.JsonRpcProvider('自己填RPC');
 
 # 设置您的以太坊账户地址和私钥
 const account = '0x';  自己填自己的公钥
+
 const privateKey = '0x';  私钥 
 
 # 希望增加的 Gas Price 百分比
