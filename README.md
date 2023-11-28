@@ -45,8 +45,6 @@ const gasPriceIncreasePercentage = 5; // 这里是 5%，可以根据需要修改
 demo代码如下
 
 
-    
-// 验证解决方案函数
 function verifySolution(solution) {
     const hashedSolution = ethers.utils.keccak256(
         ethers.utils.defaultAbiCoder.encode(["bytes32", "bytes32"], [solution, currentChallenge])
@@ -54,7 +52,7 @@ function verifySolution(solution) {
 return hashedSolution.startsWith('0x77777');
 }
 
-// 使用示例
+
 async function main() {
     const solution = await findSolution();
     const isValid = verifySolution(solution);
