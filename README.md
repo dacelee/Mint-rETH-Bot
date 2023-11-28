@@ -6,7 +6,7 @@
      执行 npm install 安装依赖包
      npm install
 
-# 设置 Infura 提供的 RPC 服务提供商
+# 设置 RPC 服务提供商
 const provider = new ethers.providers.JsonRpcProvider('自己填RPC');
 
 # 设置您的以太坊账户地址和私钥
