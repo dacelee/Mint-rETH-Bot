@@ -1,11 +1,10 @@
 # Mint-rETH-Bot 安装说明 
 
-
-    mkdir mine_rETH  && cd mine_rETH
-
-    npm install
-
-    node 版本 20.10.0  
+     node 版本 20.10.0  
+     win系统请安装nvm
+     之后执行nvm install 20.10.0 即可
+     执行 npm install 安装依赖包
+     npm install
 
 # 设置 Infura 提供的 RPC 服务提供商
 const provider = new ethers.providers.JsonRpcProvider('自己填RPC');
