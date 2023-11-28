@@ -44,6 +44,7 @@ const gasPriceIncreasePercentage = 5; // 这里是 5%，可以根据需要修改
 
 demo代码如下
 
+```javascript
 
 function verifySolution(solution) {
     const hashedSolution = ethers.utils.keccak256(
@@ -51,7 +52,6 @@ function verifySolution(solution) {
     );
 return hashedSolution.startsWith('0x77777');
 }
-
 
 async function main() {
     const solution = await findSolution();
@@ -67,6 +67,9 @@ async function main() {
 
 main();
 //
+
+    
+
 
 
 
