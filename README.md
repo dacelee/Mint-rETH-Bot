@@ -4,6 +4,8 @@
 
     npm install
 
+    node 版本 20.10.0  
+
 # // 设置 Infura 提供的 RPC 服务提供商
 const provider = new ethers.providers.JsonRpcProvider('自己填RPC');
 
