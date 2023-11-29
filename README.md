@@ -47,7 +47,7 @@ const gasPriceIncreasePercentage = 5; // 这里是 5%，可以根据需要修改
 
 https://github.com/dacelee/rETH-verification 
 
-# Demo代码如下
+# Demo代码如下 (javascript)
 
 ```javascript
 
