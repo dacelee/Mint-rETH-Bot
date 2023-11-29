@@ -42,6 +42,11 @@ const gasPriceIncreasePercentage = 5; // 这里是 5%，可以根据需要修改
 
 4.返回验证结果：如果哈希值满足条件，则返回 true，表示解决方案有效；否则返回 false。
 
+
+# 验证器实现 python
+
+https://github.com/dacelee/rETH-verification 
+
 # Demo代码如下
 
 ```javascript
@@ -68,9 +73,6 @@ async function main() {
 main();
 //
 
-# 验证器实现 python
-
-https://github.com/dacelee/rETH-verification 
 
 
 
