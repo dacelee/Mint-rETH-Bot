@@ -68,7 +68,7 @@ async function main() {
 main();
 //
 
-
+```javascript
 https://github.com/dacelee/rETH-verification 验证器实现
 
 
